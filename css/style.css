@@ -1,0 +1,390 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+body,
+html {
+  height: 100%;
+  color: #131313;
+  line-height: 1.8;
+  background-color: #c7c6c6;
+}
+
+#myNavbar {
+  color: #f1f1f1;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+  background-attachment: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url(../img/image.jpg);
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url(../img/background2.jpg);
+  min-height: 250px;
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1,
+  .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 750px;
+  }
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-2 {
+    background-attachment: fixed;
+    min-height: 250px;
+  }
+}
+
+.w3-xxlarge {
+  font-family: "Babylonica", cursive;
+  font-weight: 500px;
+  color: #e8de4fb0 !important;
+  font-size: 300px !important;
+  text-shadow: 8px 10px 15px #d79e61 !important;
+  transition: step-start;
+}
+
+.w3-xxlarge {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.w3-center > p {
+  font-size: 30px;
+}
+
+.w3-xlargeService {
+  font-family: "Babylonica", cursive;
+  font-weight: 200px;
+  color: #010101 !important;
+  font-size: 150px !important;
+  text-shadow: 10px 10px 10px #ffffff !important;
+}
+
+/* _________________________________ */
+
+/* ESTILO FILTRO */
+#filtroCategorias {
+  background-color: transparent;
+  display: flow-root;
+}
+
+.seleccion {
+  width: 200px;
+  background-color: transparent;
+  display: flow-root;
+  justify-items: start;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+#filtroCategorias {
+  /* background-color: transparent; */
+  /* color: #276969; */
+  border-radius: 50px;
+  width: 100%;
+  border: none;
+  padding: 0.2pc 1pc 0.2pc;
+}
+
+/* option {
+  background-color: transparent;
+} */
+
+/* !MAIN / CARDS */
+
+#contenedor-servicios {
+  margin-top: 20px;
+  /*  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+ */
+}
+/* .row{
+margin-bottom: 0px!important;
+} */
+
+.card-title {
+  padding: 0 25px;
+  font-family: "Lato", sans-serif;
+  font-size: 25px; /* border: 2px solid orange; */
+}
+
+.row {
+  margin-bottom: 0px;
+}
+
+.img-fluid {
+  height: 100%;
+  /* margin-top: 5px; */
+  border-radius: 5px;
+}
+
+/* ?CARRITO!! */
+
+#boton-carrito:hover {
+  font-size: 20px;
+}
+
+#boton-login:hover {
+  font-size: 20px;
+}
+
+#contadorCarrito {
+  margin-left: 7px;
+}
+
+.modal-contenedor {
+  position: fixed;
+  top: 150px;
+  /* width: 100%; */
+  /* height: 100vh; */
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 15;
+}
+
+.modal-carrito {
+  position: relative;
+  background-color: #fafafa;
+  min-width: 800px;
+  padding: 20px;
+  margin-top: -100%;
+  transition: all 0.5s;
+}
+
+.modal-active .modal-carrito {
+  margin-top: 0;
+}
+
+.modal-carrito h3 {
+  color: #276969;
+  padding-bottom: 5px;
+}
+.modal-carrito #carritoCerrar {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  color: rgb(225, 76, 65);
+  border: none;
+  background-color: transparent;
+}
+.modal-carrito #carritoCerrar:hover {
+  cursor: pointer;
+  color: #276969;
+}
+.modal-carrito #carritoCerrar:focus {
+  outline: none;
+}
+.modal-carrito .precioProducto {
+  padding-top: 10px;
+  text-align: center;
+  border: 1px solid #276969;
+  padding-bottom: 14px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.servicioEnCarrito {
+  border-left: 5px solid #5abfbf;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 0.3fr 0.2fr;
+  justify-content: space-between;
+}
+
+.productoEnCarrito:hover {
+  border-left: 5px solid #5abfbf;
+}
+
+.boton-eliminar {
+  background-color: white;
+  color: #db2a2a;
+  border: none;
+  font-size: 18px;
+}
+
+.boton-eliminar:hover {
+  cursor: pointer;
+}
+.boton-eliminar:focus {
+  outline: none;
+}
+
+.boton-eliminar:hover {
+  cursor: pointer;
+}
+.boton-eliminar:focus {
+  outline: none;
+}
+
+.swal-overlay {
+  background-color: rgba(43, 165, 137, 0.45);
+}
+
+#boton-signin:hover {
+  font-size: 20px;
+}
+
+#contact-form {
+  width: 100%;
+}
+
+.w3-content .style {
+  border: none !important;
+  border-bottom: 2px solid #d79e61 !important;
+}
+
+.w3-content .style:hover {
+  background-color: #999;
+  border-bottom: 2px solid #080705 !important;
+}
+
+footer > a {
+  border-radius: 30px;
+  justify-content: end;
+  position: -webkit-sticky;
+}
+
+#btn-pagar {
+  cursor: pointer;
+  padding: 10px;
+}
+
+#btn-pagar:hover {
+  border: 1px solid blue;
+}
+
+.modal-login,
+.modal-registro {
+  width: 320px;
+}
+.modal-login,
+.modal-registro,
+.modal-content {
+  border-radius: 1px;
+  border: none;
+}
+.modal-login,
+.modal-registro,
+.modal-header {
+  position: relative;
+  justify-content: center;
+  background: #f2f2f2;
+}
+.modal-login .modal-body {
+  padding: 30px;
+}
+.modal-login .modal-footer {
+  background: #f2f2f2;
+}
+.modal-title{
+  text-align: left;
+  font-size: 26px;
+}
+
+.modal-login label {
+  font-weight: normal;
+  font-size: 13px;
+  color: #010101;
+}
+.modal-login .form-control,
+.modal-login .btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+.modal-login .hint-text {
+  text-align: center;
+}
+.modal-login .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.modal-login .checkbox-inline {
+  margin-top: 12px;
+}
+.modal-login input[type="checkbox"] {
+  position: relative;
+  top: 1px;
+}
+.modal-login .btn {
+  min-width: 100px;
+  background: #3498db;
+  border: none;
+  line-height: normal;
+}
+.modal-login .btn:hover,
+.modal-login .btn:focus {
+  background: #248bd0;
+}
+.modal-login .hint-text a {
+  color: #999;
+}
+.trigger-btn {
+  display: inline-block;
+}
+
+.modal {
+  background-color: transparent;
+}
+
+/* .modal-registro {
+  display: table-header-group;
+}  */

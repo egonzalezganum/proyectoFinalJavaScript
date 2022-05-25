@@ -1,0 +1,161 @@
+[
+    {
+        "id": 1,
+        "nombre": "Almuerzo en bodega Domaine Bousquet",
+        "tipo": "Bodega",
+        "desc": "Almuerzo de 3 pasos con vino includo y excursión en bodega",
+        "precio": 3520,
+        "img": "img/bousquet.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Almuerzo en bodega Dominios del Plata",
+        "tipo": "Bodega",
+        "desc": "Almuerzo de 2 pasos con vino includo y excursión en bodega",
+        "precio": 2760,
+        "img": "img/dominios.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Almuerzo bodega Ver Sacrum",
+        "tipo": "Bodega",
+        "desc": "Almuerzo de 5 pasos con vino includo y excursión en bodega",
+        "precio": 4350,
+        "img": "img/versacrum.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Visita a la reserva natural Villavicencio",
+        "tipo": "Excursión",
+        "desc": "Visita por el día a la reserva natural Villavicencio",
+        "precio": 2200,
+        "img": "img/villavicencio.jpeg"
+    },
+    {
+        "id": 5,
+        "nombre": "Excursión al avión de los uruguayos",
+        "tipo": "Excursión",
+        "desc": "Excursión de 3 dias y 2 noches al avión de la tragedia de los uruguayos. Comidas incluidas",
+        "precio": 9990,
+        "img": "img/avion.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Excursión a la reserva natural la Payunia",
+        "tipo": "Excursión",
+        "desc": "Excursión de 2 dias y 1 noches a la reserva nacional, acceso al volcán Malacara, alojamiento en Malargüe. Comidas incluidas",
+        "precio": 8780,
+        "img": "img/payunia.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Excursión al parque provincial Aconcagua",
+        "tipo": "Excursión",
+        "desc": "Excursion de trekking al parque provincial Aconcagua con visita al campo base Confluencia ",
+        "precio": 5220,
+        "img": "img/parqueaconcagua.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Estadía de una noche con circuito de spa en Entre Cielos Hamman & Spa",
+        "tipo": "Alojamiento",
+        "desc": "Noche de alojamiento en habitacion doble privada con cena y desayuno + circuito de spa",
+        "precio": 8800,
+        "img": "img/entrecielos.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Día de raffting y asado en alta montaña",
+        "tipo": "Excursión",
+        "desc": "Día completo de excursión, raffting de 2hs por el rio Mendoza, asado en el dique Potrerillos ",
+        "precio": 4230,
+        "img": "img/raffting.webp"
+    },
+    {
+        "id": 10,
+        "nombre": "Estadia de dos noches todo incluido hotel The Vines",
+        "tipo": "Alojamiento",
+        "desc": "Alojamiento en hotel The Vines al pie de la cordillera, régimen todo incluido",
+        "precio": 12520,
+        "img": "img/thevines.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Tour de bodegas",
+        "tipo": "Bodega",
+        "desc": "Visita a 2 bodegas de Valle de Uco, degustación incluida",
+        "precio": 2520,
+        "img": "img/bodegas.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Estadia de dos noches todo incluido hotel The Vines",
+        "tipo": "Alojamiento",
+        "desc": "Alojamiento en hotel The Vines al pie de la cordillera, régimen todo incluido",
+        "precio": 12520,
+        "img": "img/thevines.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Estadia de dos noches todo incluido hotel The Vines",
+        "tipo": "Alojamiento",
+        "desc": "Alojamiento en hotel The Vines al pie de la cordillera, régimen todo incluido",
+        "precio": 12520,
+        "img": "img/thevines.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Estadia de dos noches todo incluido hotel The Vines",
+        "tipo": "Alojamiento",
+        "desc": "Alojamiento en hotel The Vines al pie de la cordillera, régimen todo incluido",
+        "precio": 12520,
+        "img": "img/thevines.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Estadia de dos noches todo incluido hotel The Vines",
+        "tipo": "Alojamiento",
+        "desc": "Alojamiento en hotel The Vines al pie de la cordillera, régimen todo incluido",
+        "precio": 12520,
+        "img": "img/thevines.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Estadia de dos noches todo incluido hotel The Vines",
+        "tipo": "Alojamiento",
+        "desc": "Alojamiento en hotel The Vines al pie de la cordillera, régimen todo incluido",
+        "precio": 12520,
+        "img": "img/thevines.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Estadia de dos noches todo incluido hotel The Vines",
+        "tipo": "Alojamiento",
+        "desc": "Alojamiento en hotel The Vines al pie de la cordillera, régimen todo incluido",
+        "precio": 12520,
+        "img": "img/thevines.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Estadia de dos noches todo incluido hotel The Vines",
+        "tipo": "Alojamiento",
+        "desc": "Alojamiento en hotel The Vines al pie de la cordillera, régimen todo incluido",
+        "precio": 12520,
+        "img": "img/thevines.jpg"
+    },
+    {
+        "id": 19,
+        "nombre": "Estadia de dos noches todo incluido hotel The Vines",
+        "tipo": "Alojamiento",
+        "desc": "Alojamiento en hotel The Vines al pie de la cordillera, régimen todo incluido",
+        "precio": 12520,
+        "img": "img/thevines.jpg"
+    },    {
+        "id": 20,
+        "nombre": "Estadia de dos noches todo incluido hotel The Vines",
+        "tipo": "Alojamiento",
+        "desc": "Alojamiento en hotel The Vines al pie de la cordillera,",
+        "precio": 12520,
+        "img": "img/thevines.jpg"
+    }
+]

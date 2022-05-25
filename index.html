@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Wanderlust Mendoza</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--GOOGLE FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Babylonica&family=Dancing+Script&family=Lato:wght@300&family=Yellowtail&display=swap"
+    rel="stylesheet">
+
+  <!-- MATERIALIZE ICONS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/83a37f8406.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+
+  <!-- TOASTIFY -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+  <!-- MODAL -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- ESTILOS PROPIOS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/w3Style.css">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button">Inicio</a>
+      <a href="#sobrenosotros" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Sobre nosotros</a>
+      <a href="#servicios" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Servicios</a>
+      <a href="#contacto" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contacto</a>
+      <a class="trigger-btn w3-bar-item w3-button w3-hide-small w3-right" id="boton-carrito">Carrito
+        <i class="fa fa-shopping-cart"></i><span id="contadorCarrito">0</span>
+      </a>
+      <a href="#modalLogin" class="trigger-btn w3-bar-item w3-button w3-hide-small w3-right" data-toggle="modal"
+        id="boton-login">Login<i class="fa fa-user"></i></a>
+        <a href="#modalRegistro" class="trigger-btn w3-bar-item w3-button w3-hide-small w3-right" data-toggle="modal"
+        id="boton-login">Registro<i class="fa fa-bell"></i></a>
+
+    </div>
+
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#sobrenosotros" class="w3-bar-item w3-button" onclick="toggleFunction()">Sobre nosotros</a>
+      <a href="#servicios" class="w3-bar-item w3-button" onclick="toggleFunction()">Servicios</a>
+      <a href="#contacto" class="w3-bar-item w3-button" onclick="toggleFunction()">Contacto</a>
+      <a class="w3-bar-item w3-button" onclick="toggleFunction()" id="boton-carrito">Carrito </a>
+    </div>
+  </div>
+
+  <!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-1 w3-display-container" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <span class="w3-xxlarge w3-wide">Wanderlust</span>
+    </div>
+  </div>
+
+  <!-- Container (About Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="sobrenosotros">
+    <h3 class="w3-center">Sobre nosotros</h3>
+    <p>En <b>Wanderlust</b> ponemos a su disposición toda la oferta turistica y gastronomica de Mendoza en un solo
+      sitio. Desde nuestra
+      web usted podra buscar, conocer, encontrar y reservar diferentes servicios ofrecidos en la provincia.</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas esse quas minus nisi, ex, iure rem
+    incidunt dolor, ullam sint commodi debitis! Quo neque, fugiat aspernatur incidunt est dolor.
+    Asperiores repudiandae sed saepe inventore consectetur et tempora praesentium voluptates laudantium eaque ab
+    delectus dolorum consequuntur, facere, obcaecati blanditiis quaerat quasi? Illum eum nemo magnam asperiores eos vero
+    tempore minima.
+    Exercitationem voluptatum, possimus rem inventore, consequuntur alias at nemo libero laborum asperiores dolore
+    reiciendis illo eos temporibus iste cumque dolores molestiae voluptatibus eveniet eius? Consequuntur autem quo
+    eligendi mollitia soluta?
+    Illo vel nam labore laboriosam obcaecati. Est autem laudantium possimus quasi quae inventore qui, non ipsum,
+    reiciendis sapiente soluta reprehenderit assumenda doloribus pariatur laboriosam iure blanditiis delectus. Labore,
+    quo commodi?
+    Ipsum beatae omnis reprehenderit voluptatibus velit? Ab ex nostrum eveniet nam quo placeat, dolor ut esse quisquam
+    ducimus mollitia eaque. Perferendis sit temporibus, praesentium facilis totam doloribus tenetur nisi consectetur!
+    Numquam eaque quo facere dolorem mollitia totam illum consequuntur quasi voluptas omnis blanditiis officia
+    perspiciatis rerum modi autem alias quas magnam voluptate, iusto maiores. Fugit ipsa natus reprehenderit. Enim,
+    quaerat!
+    Modi autem pariatur sed et, optio fugiat enim dolorum nihil nesciunt adipisci libero iusto quod cupiditate,
+    molestiae omnis placeat odio? Praesentium enim rem fugiat voluptates ducimus odit! Odit, quod velit?
+    Qui quisquam assumenda aperiam repellendus temporibus, illo ullam officia quaerat porro laudantium eius consectetur
+    adipisci odio facilis! Recusandae ea ipsum nisi nulla assumenda, sint quibusdam deleniti aliquid et saepe iure.
+    Debitis, doloribus harum! Iste ratione vero quo ea dolorum ex, fugiat hic aut labore odit animi. Obcaecati,
+    molestias a! Cumque sunt sint eius amet minima dolorem sapiente, dicta tempora blanditiis?
+    Unde eveniet, molestiae consequatur sequi non iusto molestias. Debitis incidunt modi ipsum sint molestias adipisci
+    excepturi laborum nostrum sed vero id ad, itaque aliquam distinctio, a consectetur magni, harum nam?
+  </div>
+
+
+  <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  </div>
+
+  <!-- Second Parallax Image with Portfolio Text -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xlargeService w3-text-white w3-wide">Servicios</span>
+    </div>
+  </div>
+  <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  </div>
+
+
+  <div class="w3-content w3-container w3-padding-64" id="servicios">
+    <div class="seleccion">
+      <select id="filtroCategorias">
+        <option value="all">Todos los servicios</option>
+        <option value="Bodega">Ver bodegas / Olivicolas</option>
+        <option value="Excursión">Ver excursiones</option>
+        <option value="Alojamiento">Ver alojamientos</option>
+      </select>
+    </div>
+
+    <div id="contenedor-servicios">
+
+    </div>
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contacto">
+
+      <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m8 w3-panel" id="contact-form">
+          <div class="w3-large w3-margin-bottom w3-margin-top popotito">
+            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Mendoza, Argentina<br>
+            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +54 261 698 0716<br>
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
+            wanderlusttravel@wanderlust.tur<br>
+          </div>
+          <form action="" id="contactito">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border style" type="text" placeholder="Nombre" required name="Name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border style" type="text" placeholder="Email" required name="Email">
+              </div>
+            </div>
+            <input class="w3-input w3-border style" type="text" placeholder="Mensaje" required name="Message">
+            <button class="w3-button w3-black w3-right w3-section" type="submit" id="enviar-contacto">
+              <i class="fa fa-paper-plane"></i> ¡Enviar!
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+    </footer>
+
+    <div class="modal-contenedor">
+      <div class="modal-carrito">
+        <h3>Carrito</h3>
+        <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+        <div id="carrito-contenedor">
+        </div>
+        <p class="precioProducto">Precio total: $<span id="precioTotal">0</span> </p>
+        <a id="btn-pagar">PAGAR</a>
+      </div>
+    </div>
+
+
+
+    <!-- MODALES -->
+
+    <div id="modalLogin" class="modal fade">
+      <div class="modal-dialog modal-login">
+        <div class="modal-content">
+          <form id="form-login" action="/index.html">
+            <div class="modal-header">
+              <h4 class="modal-title">Login</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label>Mail</label>
+                <input type="text" class="form-control" required="required">
+              </div>
+              <div class="form-group">
+                <div class="clearfix">
+                  <label>Password</label>
+                  <a href="#" class="float-right text-muted"><small>Forgot?</small></a>
+                </div>
+                <input type="password" class="form-control" required="required">
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <input id="login-submit" type="submit" class="btn btn-primary" value="Login">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="modalRegistro" class="modal fade">
+      <div class="modal-dialog modal-registro">
+        <div class="modal-content">
+          <form id="form-Registro">
+            <div class="modal-header">
+              <h4 class="modal-title">Registro</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label>Nombre</label>
+                <input type="text" class="form-control" required="required">
+              </div>
+              <div class="form-group">
+                <label>Apellido</label>
+                <input type="text" class="form-control" required="required">
+              </div>
+              <div class="form-group">
+                <label>Mail</label>
+                <input type="text" class="form-control" required="required">
+              </div>
+              <div class="form-group">
+                <div class="clearfix">
+                  <label>Password</label>
+                </div>
+                <input type="password" class="form-control" required="required">
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <input id="registro-submit" type="submit" class="btn btn-primary" value="Registrar">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- MODAL -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- MATERIALIZE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- TOASTIFY -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- SWEET ALERT -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="JS/usuarios.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/modal.js"></script>
+
+</body>
+
+</html>
